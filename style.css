@@ -1,0 +1,144 @@
+.box1{
+    background-image: url(aas.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 770px;
+    padding: 0px 80px;
+}
+
+.row{
+    height: 600px;
+}
+
+.logo{
+    width: 100px;
+}
+.navbar-nav{
+    font-family: 'MADE Tommy Soft';
+    font-size: 16px;
+}
+
+h1{
+    margin-top: 87px;
+    font-family: 'montserrat';
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'montserrat';
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+/* h3{
+    font-family: 'montserrat';
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+} */
+
+
+h4{
+font-size: 24px;
+font-family: 'montserrat';
+color: white;
+font-weight: 600;
+text-align: right;
+margin-top: 190px;
+}
+
+
+button{
+    background-color: transparent;
+    font-family: 'montserrat';
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+border: none;
+}
+
+p{
+font-size: 16px;
+font-family: 'roboto';
+color: white;
+font-weight: 300;
+text-align: right;
+
+}
+
+.sitelink, .sitelink:hover{
+    font-size: 14px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: 160px;
+    
+}
+
+
+
+.icon{
+    height: 55px;
+    width: 55px;
+    color: white;
+    margin-left: 15px;
+    text-align: right;
+    position: relative;
+    left: 220px;
+    top: 100px;
+}
+
+
+@media only screen and (max-width:500px){
+   .box1{
+    width: 100%;
+    padding:  20px;
+    height: 900px;
+   }
+
+   h2{
+    font-size: 36px;
+   }
+   .sitelink{
+    position: relative;
+    top: 60px;
+   }
+
+   .icon{
+    position: relative;
+    left: 95px;
+    top: 10px;
+   }
+}
+
+/*Custom scroll*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #061448; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f40078; 
+    background-image: linear-gradient(#061448,#f40078);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(#f40078,#061448);
+  }
